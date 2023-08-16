@@ -62,10 +62,7 @@ public class User {
 
     @Override
     public String toString() {
-        return String.format("User: [ID = %s, NAME = %s, LASTNAME = %s, AGE = %d]",
-                getId(),
-                getName(),
-                getLastName(),
-                getAge());
+        return "User: [ID = " + getId() + ", NAME = " + getName() +
+                ", LASTNAME = " + getLastName() + ", AGE = " + getAge() + "]";
     }
 }
